@@ -1,0 +1,181 @@
+{
+  "mentors": [
+    {
+      "id": 1,
+      "name": "Israel",
+      "lastName": "Salinas",
+      "puesto": "Program Lead",
+      "mentorOf": [
+        "Maquetado",
+        "CSS",
+        "Bootstrap",
+        "React"
+      ],
+      "gitub": true,
+      "sex": "m"
+    },
+    {
+      "id": 2,
+      "name": "Rose",
+      "lastName": "Ortega",
+      "puesto": "Mentor",
+      "mentorOf": [
+        "Fundamentos de Computacion",
+        "Introduccion a la Programacion"
+      ],
+      "gitub": false,
+      "sex": "f"
+    },
+    {
+      "id": 3,
+      "name": "Charles",
+      "lastName": "Silva",
+      "puesto": "Mentor",
+      "mentorOf": [
+        "Backend",
+        "AWS"
+      ],
+      "gitub": true,
+      "sex": "m"
+    },
+    {
+      "id": 4,
+      "name": "Alex",
+      "lastName": "Leon",
+      "puesto": "Mentor",
+      "mentorOf": [
+        "Cloud"
+      ],
+      "gitub": false,
+      "sex": "m"
+    },
+    {
+      "id": 5,
+      "name": "Jorge",
+      "lastName": "Camarillo",
+      "puesto": "Mentor",
+      "mentorOf": [
+        "Javascript",
+        "JQuery"
+      ],
+      "gitub": true,
+      "sex": "m"
+    },
+    {
+      "id": 6,
+      "name": "Naomi",
+      "lastName": "Lopez",
+      "puesto": "Mentor",
+      "mentorOf": [
+        "Fundamentos de Computacion",
+        "Introduccion a la Programacion"
+      ],
+      "gitub": true,
+      "sex": "m"
+    },
+    {
+      "id": 7,
+      "name": "Lara",
+      "lastName": "Costa",
+      "puesto": "Program Lead",
+      "mentorOf": [
+        "Maquetado",
+        "CSS"
+      ],
+      "gitub": false,
+      "sex": "f"
+    },
+    {
+      "id": 8,
+      "name": "Lara",
+      "lastName": "Costa",
+      "puesto": "Program Lead",
+      "mentorOf": [
+        "Maquetado",
+        "CSS"
+      ],
+      "gitub": false,
+      "sex": "f"
+    }
+  ],
+  "koders": [
+    {
+      "id": 1,
+      "name": "Emilio",
+      "age": 29,
+      "nationality": "mexican",
+      "generation": 15,
+      "hobbies": [
+        "Bataca",
+        "Diseno"
+      ],
+      "sex": "m",
+      "city": "GDL"
+    },
+    {
+      "id": 2,
+      "name": "Erick",
+      "age": 28,
+      "nationality": "mexican",
+      "generation": 15,
+      "hobbies": [
+        "Nadar",
+        "Football"
+      ],
+      "sex": "m",
+      "city": "CDMX"
+    },
+    {
+      "id": 3,
+      "name": "Job",
+      "age": 33,
+      "nationality": "mexican",
+      "generation": 15,
+      "hobbies": [
+        "Gym",
+        "PS"
+      ],
+      "sex": "m",
+      "city": "CDMX"
+    },
+    {
+      "id": 4,
+      "name": "Ismael",
+      "age": 40,
+      "nationality": "mexican",
+      "generation": 15,
+      "hobbies": [
+        "Musica",
+        "Chorcha"
+      ],
+      "sex": "m",
+      "city": "CDMX"
+    },
+    {
+      "id": 5,
+      "name": "Sara",
+      "age": 32,
+      "nationality": "mexican",
+      "generation": 15,
+      "hobbies": [
+        "Caminar",
+        "Leer"
+      ],
+      "sex": "f",
+      "city": "Durango"
+    },
+    {
+      "id": 6,
+      "name": "Ivonne",
+      "age": 31,
+      "nationality": "mexican",
+      "generation": 15,
+      "hobbies": [
+        "Bailar",
+        "Cine"
+      ],
+      "sex": "f",
+      "city": "Toluca"
+    }
+  ]
+}
