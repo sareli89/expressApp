@@ -82,19 +82,7 @@
         "Maquetado",
         "CSS"
       ],
-      "gitub": false,
-      "sex": "f"
-    },
-    {
-      "id": 8,
-      "name": "Lara",
-      "lastName": "Costa",
-      "puesto": "Program Lead",
-      "mentorOf": [
-        "Maquetado",
-        "CSS"
-      ],
-      "gitub": false,
+      "gitub": true,
       "sex": "f"
     }
   ],

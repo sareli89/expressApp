@@ -199,7 +199,7 @@ app.post('/mentors', async( request, response ) => {
     response.json(db.mentors)
 })
 
-app.delete('/mentors:id', async( request, response ) => {
+app.delete('/mentors/:id', async( request, response ) => {
     const id = parseInt(request.params.id)
     const data = await fs.readFile('kodemia.json', 'utf-8')
     const db = JSON.parse(data)
@@ -210,6 +210,40 @@ app.delete('/mentors:id', async( request, response ) => {
     const dbString = JSON.stringify(db, '\n', 2)
     await fs.writeFile('kodemia.json', dbString, 'utf-8')
 
+    response.json(db.mentors)
+})
+
+app.patch('/mentors/:id', async( request, response ) => {
+    const id = parseInt(request.params.id)
+    const data = await fs.readFile('kodemia.json', 'utf-8')
+    const db = JSON.parse(data)
+
+    if (isNaN(id) ) {
+        response.status(400)
+        .json( {
+            message: 'The id you enter is not a number'
+        })
+        return
+    }
+
+    const mentorIndex = db.mentors.findIndex ( (mentor) => id === mentor.id)
+
+    if ( mentorIndex < 0 ) {
+        response.status(404)
+        response.json({
+            message : 'Mentor not found'
+        })
+        return
+    }
+
+    db.mentors[mentorIndex] = {
+        ... db.mentors[mentorIndex],
+        ... request.body
+    }
+
+    const dbString = JSON.stringify(db, '\n', 2)
+    await fs.writeFile('kodemia.json', dbString, 'utf-8')
+    
     response.json(db.mentors)
 })
 
